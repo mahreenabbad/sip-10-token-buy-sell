@@ -1,0 +1,51 @@
+
+Clarinet allows us to check our project's syntax and semantics. 
+You can check if your project's contract(s) contains valid code by running: clarinet check
+
+wallet password Mahreen@123#
+Open your terminal and run the following command to create a new contract then navigate to the new directory:
+clarinet new clarity-tutorial && cd clarity-tutorial
+
+
+clarinet check <path/to/file.clar>
+
+test
+clarinet test
+If you want to maximize test coverage, you can test your contract's coverage by running the following command:
+clarinet test --coverage
+
+clarinet requirements add <contract address>
+clarinet contract new <contract name>
+
+clarinet console
+
+
+
+steps to deploy on testnet
+clarinet check contracts/wallets.clar
+clarinet deployments generate --testnet --medium-cost
+
+clarinet deployment apply -p deployments/default.testnet-plan.yaml
+clarinet deployments apply --testnet
+
+npm run test
+
+
+locally deploy
+clarinet deployments generate --simnet
+clarinet console
+clarinet deployments generate --devnet
+clarinet integrate
+
+
+
+////////////////
+contracts to check the list of files and folders
+ls 
+ls contracts
+///////////////
+
+//functions call in terminal
+
+(contract-call? .fileName functionName)
+(contract-call? .fileName setFunctionName setValue)
