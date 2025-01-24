@@ -27,7 +27,7 @@ import { generateWallet, generateNewAccount } from "@stacks/wallet-sdk";
 // async function keyGenerate() {
 //   let wallet = await generateWallet({
 //     secretKey:
-//       "wheel city agent network device bomb clean lemon they leopard baby inch inquiry cable silent such snack wolf coral turtle please rural scissors whale",
+//       "",
 //     password: "",
 //   });
 //   wallet = generateNewAccount(wallet);
@@ -47,7 +47,7 @@ import { generateWallet, generateNewAccount } from "@stacks/wallet-sdk";
 //   contractName: "sip-token001",
 //   codeBody: readFileSync("contracts/sip-token001.clar").toString(),
 //   senderKey:
-//     "3a020135ad063d66f11c1b6e1e1d2b2a46cf99e721dde23c70463dca132eaaec01",
+//     "3a0200463dca132eaaec01",
 //   network: "testnet",
 //
 // };
@@ -91,7 +91,7 @@ import { generateWallet, generateNewAccount } from "@stacks/wallet-sdk";
 //     uintCV(1000000), // The stx-amount in micro-STX (1 STX = 1,000,000 micro-STX)
 //   ],
 //   senderKey:
-//     "3a020135ad063d66f11c1b6e1e1d2b2a46cf99e721dde23c70463dca132eaaec01", // Sender's private key
+//     "3a0201ec01", // Sender's private key
 //   validateWithAbi: true,
 //   network: "testnet", // Use the testnet network
 // };
@@ -131,7 +131,7 @@ import { generateWallet, generateNewAccount } from "@stacks/wallet-sdk";
 //     uintCV(1000000), // The stx-amount in micro-STX (1 STX = 1,000,000 micro-STX)
 //   ],
 //   senderKey:
-//     "3a020135ad063d66f11c1b6e1e1d2b2a46cf99e721dde23c70463dca132eaaec01", // Sender's private key
+//     "3a020135aaaec01", // Sender's private key
 //   validateWithAbi: true,
 //   network: "testnet", // Use the testnet network
 // };
@@ -235,7 +235,7 @@ const txOptions = {
   // postConditions: [postCondition],
   PostConditionMode: PostConditionMode.Allow,
   senderKey:
-    "3a020135ad063d66f11c1b6e1e1d2b2a46cf99e721dde23c70463dca132eaaec01",
+    "3a02013ca132eaaec01",
   network: "testnet",
 };
 
@@ -269,7 +269,7 @@ console.log("Response:", response);
 
 //   PostConditionMode: PostConditionMode.Allow,
 //   senderKey:
-//     "3a020135ad063d66f11c1b6e1e1d2b2a46cf99e721dde23c70463dca132eaaec01",
+//     "3a020aaec01",
 //   network: "testnet",
 //
 // };
@@ -282,5 +282,4 @@ console.log("Response:", response);
 // // console.log("Transaction:", transaction);
 // const response = await broadcastTransaction(transaction, "testnet");
 // console.log("Response:", response);
-//first account 3a020135ad063d66f11c1b6e1e1d2b2a46cf99e721dde23c70463dca132eaaec01
-//second Acc aa66bf47290bccf968489983990af9d1a289822193e874945567a7bc8d63fee301
+
