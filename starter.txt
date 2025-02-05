@@ -2,7 +2,7 @@
 Clarinet allows us to check our project's syntax and semantics. 
 You can check if your project's contract(s) contains valid code by running: clarinet check
 
-wallet password Mahreen@123#
+
 Open your terminal and run the following command to create a new contract then navigate to the new directory:
 clarinet new clarity-tutorial && cd clarity-tutorial
 
