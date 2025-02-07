@@ -184,7 +184,7 @@
 )
 //////////////////////////////////////////////
 
-initial contract of buy and sell
+;;initial contract of buy and sell
 ////////////////////////////////////////
 
  (use-trait sip-trait .sip-trait.sip-trait) 
