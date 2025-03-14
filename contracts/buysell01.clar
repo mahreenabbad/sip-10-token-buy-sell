@@ -9,7 +9,6 @@
 (define-constant SELL-INFO-ERROR (err u2002))
 (define-constant ERR-TRANSFER-FAILED (err u3001))
 
-
 ;; (define-constant token-supply u100000000) ;; match with the token's supply (6 decimals), serves as a reference for calculations involving the token.
 (define-constant FEE_WALLET 'STXWGJQ101N1C1FYHK64TGTHN4793CHVKRW3ZGVV) ;; Swap fee wallet address
 (define-constant allow-token 'STXWGJQ101N1C1FYHK64TGTHN4793CHVKRW3ZGVV.sip-token) ;; Authorized token contract
